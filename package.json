@@ -1,7 +1,7 @@
 {
-    "name": "aurora-launcher-app",
-    "version": "0.0.4",
-    "description": "Launcher for Minecraft",
+    "name": "genesis",
+    "version": "0.0.1",
+    "description": "Launcher for server Genesis",
     "main": "build/main/index.js",
     "private": true,
     "scripts": {
@@ -24,17 +24,17 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/AuroraTeam/Launcher.git"
+        "url": "git+https://github.com/wexgodness/genesislaucnher-0.0.5.git"
     },
-    "author": "AuroraTeam",
+    "author": "genesis",
     "contributors": [
-        "JoCat (https://github.com/JoCat)"
+        "wexgodness (https://github.com/wexgodness)"
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/AuroraTeam/Launcher/issues"
+        "url": "https://github.com/wexgodness/genesislaucnher-0.0.5/issues"
     },
-    "homepage": "https://github.com/AuroraTeam/Launcher#readme",
+    "homepage": "https://github.com/wexgodness/genesislaucnher-0.0.5#readme",
     "devDependencies": {
         "@aurora-launcher/esbuild-decorators": "^0.0.1",
         "@types/node": "^18.17.15",
@@ -88,14 +88,14 @@
         }
     },
     "build": {
-        "appId": "ru.aurora.launcher",
-        "productName": "Aurora Launcher",
+        "appId": "god.genesis.launcher",
+        "productName": "genesis Launcher",
         "publish": [
             {
                 "provider": "github",
                 "releaseType": "release",
-                "owner": "AuroraTeam",
-                "repo": "Launcher"
+                "owner": "genesis",
+                "repo": "genesislaucnher-0.0.5"
             }
         ],
         "directories": {
@@ -118,7 +118,7 @@
                 "AppImage"
             ],
             "category": "Game",
-            "maintainer": "AuroraTeam <null@aurora-team.ru>"
+            "maintainer": "Genesis <root@hordi.xyz>"
         }
     },
     "optionalDependencies": {
